@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,top=false": [{"model": "dragonborn:block/stone_door_border"}],
+    "facing=north,top=true": [{"model": "dragonborn:block/stone_door_border_top"}],
+
+    "facing=south,top=false": [{"model": "dragonborn:block/stone_door_border", "y": 180 }],
+    "facing=south,top=true": [{"model": "dragonborn:block/stone_door_border_top", "y": 180 }],
+
+    "facing=west,top=false": [{"model": "dragonborn:block/stone_door_border", "y": 270 }],
+    "facing=west,top=true": [{"model": "dragonborn:block/stone_door_border_top", "y": 270 }],
+
+    "facing=east,top=false": [{"model": "dragonborn:block/stone_door_border", "y": 90 }],
+    "facing=east,top=true": [{"model": "dragonborn:block/stone_door_border_top", "y": 90 }]
+  }
+}

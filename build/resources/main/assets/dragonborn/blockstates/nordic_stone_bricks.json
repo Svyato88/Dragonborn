@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/block/nordic_stone_bricks1"},
+      {"model": "dragonborn:block/block/nordic_stone_bricks2"}
+    ]
+  }
+}

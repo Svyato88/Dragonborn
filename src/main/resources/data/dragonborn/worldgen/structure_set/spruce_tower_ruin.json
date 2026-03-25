@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "dragonborn:spruce_tower_ruin",
+      "weight": 1
+    }
+  ],
+  "placement": {
+   "salt": 1842133414,
+
+    "spacing": 20,
+
+   "separation": 6,
+
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonborn:block/limestone_pillar_slab"
+    },
+    "type=double": {
+      "model": "dragonborn:block/limestone_pillar_solid"
+    },
+    "type=top": {
+      "model": "dragonborn:block/limestone_pillar_slab_top"
+    }
+  }
+}

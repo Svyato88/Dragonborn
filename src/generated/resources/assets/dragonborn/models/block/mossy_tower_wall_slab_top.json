@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dragonborn:block/mossy_tower_wall",
+    "side": "dragonborn:block/mossy_tower_wall",
+    "top": "dragonborn:block/mossy_tower_wall"
+  }
+}

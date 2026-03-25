@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragonborn:block/trees/dry_tree/dry_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragonborn:block/trees/dry_tree/dry_log"
+    },
+    "axis=z": {
+      "model": "dragonborn:block/trees/dry_tree/dry_log",
+      "x": 90
+    }
+  }
+}

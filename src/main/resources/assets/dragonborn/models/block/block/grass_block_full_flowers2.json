@@ -1,0 +1,19 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "overlay": "dragonborn:block/grass_block_full_flowers2"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "up":    { "texture": "#overlay" },
+        "north": { "texture": "#overlay" },
+        "south": { "texture": "#overlay" },
+        "west":  { "texture": "#overlay" },
+        "east":  { "texture": "#overlay" }
+      }
+    }
+  ]
+}

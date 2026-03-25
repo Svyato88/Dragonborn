@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dragonborn:block/stone_border_block",
+    "side": "dragonborn:block/stone_border_block",
+    "top": "dragonborn:block/stone_border_block"
+  }
+}

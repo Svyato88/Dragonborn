@@ -1,0 +1,20 @@
+{
+  "type": "dragonborn:grass_patch",
+  "config": {
+    "count": 1,
+    "radius": 3,
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dragonborn:big_skull",
+        "Properties": {
+          "facing": "north"
+        }
+      }
+    },
+    "valid_blocks": {
+      "block": "dragonborn:grass_block_full",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

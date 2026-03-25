@@ -1,0 +1,9 @@
+{
+  "feature": "dragonborn:stone_hills",
+  "placement": [
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

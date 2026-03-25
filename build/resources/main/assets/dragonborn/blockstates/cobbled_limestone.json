@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/cobbled_limestone1"},
+      {"model": "dragonborn:block/cobbled_limestone"}
+    ]
+  }
+}

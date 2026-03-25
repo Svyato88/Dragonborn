@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragonborn:block/planks_wall_flat",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragonborn:block/planks_wall_flat_horizontal",
+      "x": 90
+    },
+    "axis=z": {
+      "model": "dragonborn:block/planks_wall_flat_horizontal"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "dragonborn:block/trees/dry_log_top_mini",
+		"1": "dragonborn:block/trees/dry_log",
+		"particle": "spruce_log_top_mini"
+	},
+	"elements": [
+		{
+			"from": [4, 12, 4],
+			"to": [12, 16, 12],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 12, 8]},
+			"faces": {
+				"north": {"uv": [4, 8, 12, 12], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [4, 4, 8, 12], "rotation": 270, "texture": "#1"},
+				"south": {"uv": [4, 8, 12, 12], "texture": "#1"},
+				"west": {"uv": [4, 4, 8, 12], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#0"}
+			}
+		}
+	]
+}

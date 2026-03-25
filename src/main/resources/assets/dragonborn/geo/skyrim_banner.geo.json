@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.skyrim_banner",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, -1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{"origin": [-0.5, 15, 5], "size": [1, 2, 3], "uv": [62, 0]},
+						{"origin": [-14, 15, 5], "size": [1, 2, 3], "uv": [62, 5]},
+						{"origin": [-13.5, 15.5, 4], "size": [0, 1, 1], "uv": [63, 16]},
+						{"origin": [13.5, 15.5, 4], "size": [0, 1, 1], "uv": [63, 24]},
+						{"origin": [0, 15.5, 4], "size": [0, 1, 1], "uv": [63, 20]},
+						{"origin": [13, 15, 5], "size": [1, 2, 3], "uv": [62, 10]}
+					]
+				},
+				{
+					"name": "part1",
+					"pivot": [0, 17, 4.5],
+					"cubes": [
+						{"origin": [-14.5, 1, 4.5], "size": [29, 15, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "part2",
+					"pivot": [0, 1, 4.5],
+					"cubes": [
+						{"origin": [-14.5, -14, 4.5], "size": [29, 15, 0], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "part3",
+					"pivot": [0, -14, 4.5],
+					"cubes": [
+						{"origin": [-14.5, -29, 4.5], "size": [29, 15, 0], "uv": [0, 30]}
+					]
+				}
+			]
+		}
+	]
+}

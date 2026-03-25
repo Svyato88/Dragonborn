@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/mossy_smooth_limestone"},
+      {"model": "dragonborn:block/mossy_smooth_limestone1"},
+      {"model": "dragonborn:block/mossy_smooth_limestone2"},
+      {"model": "dragonborn:block/mossy_smooth_limestone3"}
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,big=false": [{"model": "dragonborn:block/stone_beam"}],
+    "facing=north,big=true": [{"model": "dragonborn:block/stone_beam_big"}],
+
+    "facing=south,big=false": [{"model": "dragonborn:block/stone_beam", "y": 180 }],
+    "facing=south,big=true": [{"model": "dragonborn:block/stone_beam_big", "y": 180 }],
+
+    "facing=west,big=false": [{"model": "dragonborn:block/stone_beam", "y": 270 }],
+    "facing=west,big=true": [{"model": "dragonborn:block/stone_beam_big", "y": 270 }],
+
+    "facing=east,big=false": [{"model": "dragonborn:block/stone_beam", "y": 90 }],
+    "facing=east,big=true": [{"model": "dragonborn:block/stone_beam_big", "y": 90 }]
+  }
+}

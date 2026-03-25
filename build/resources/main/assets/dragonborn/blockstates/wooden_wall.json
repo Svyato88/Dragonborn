@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragonborn:block/wooden_wall",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragonborn:block/wooden_wall"
+    },
+    "axis=z": {
+      "model": "dragonborn:block/wooden_wall",
+      "x": 90
+    }
+  }
+}

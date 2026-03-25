@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "dragonborn:block/grass/mountain_flower_orange_0"
+    },
+    "age=1": {
+      "model": "dragonborn:block/grass/mountain_flower_orange_1"
+    },
+    "age=2": {
+      "model": "dragonborn:block/grass/mountain_flower_orange_2"
+    },
+    "age=3": {
+      "model": "dragonborn:block/grass/mountain_flower_orange"
+    }
+  }
+}

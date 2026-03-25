@@ -1,0 +1,50 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.whiterun_banner",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, -1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 7, 5], "size": [1, 2, 3], "uv": [62, 0]},
+						{"origin": [-15, 7, 5], "size": [1, 2, 3], "uv": [62, 5]},
+						{"origin": [-14.5, 7.5, 4], "size": [0, 1, 1], "uv": [63, 16]},
+						{"origin": [14.5, 7.5, 4], "size": [0, 1, 1], "uv": [63, 24]},
+						{"origin": [0, 7.5, 4], "size": [0, 1, 1], "uv": [63, 20]},
+						{"origin": [14, 7, 5], "size": [1, 2, 3], "uv": [62, 10]}
+					]
+				},
+				{
+					"name": "part1",
+					"pivot": [0, 1, 4.5],
+					"cubes": [
+						{"origin": [-15.5, -14, 4.5], "size": [31, 22, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "part2",
+					"pivot": [0, -14, 4.5],
+					"cubes": [
+						{"origin": [-15.5, -35, 4.5], "size": [31, 21, 0], "uv": [0, 22]}
+					]
+				},
+				{
+					"name": "part3",
+					"pivot": [0, -35, 4.5],
+					"cubes": [
+						{"origin": [-15.5, -56, 4.5], "size": [31, 21, 0], "uv": [0, 43]}
+					]
+				}
+			]
+		}
+	]
+}

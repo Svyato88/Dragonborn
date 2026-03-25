@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "dragonborn:block/tower_stone_border",
+		"particle": "dragonborn:block/tower_stone_border"
+	},
+	"elements": [
+		{
+			"from": [0, 2, 12],
+			"to": [4, 14, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 8]},
+			"faces": {
+				"north": {"uv": [4, 2, 0, 14], "texture": "#0"},
+				"east": {"uv": [12, 2, 8, 14], "texture": "#0"},
+				"south": {"uv": [16, 2, 12, 14], "texture": "#0"},
+				"west": {"uv": [8, 2, 4, 14], "texture": "#0"},
+				"up": {"uv": [16, 12, 12, 16], "texture": "#0"},
+				"down": {"uv": [16, 12, 12, 16], "texture": "#0"}
+			}
+		}
+	]
+}

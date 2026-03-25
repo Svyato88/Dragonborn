@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/furniture/cage"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/furniture/cage", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/furniture/cage", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/furniture/cage", "y": 90 }
+    ]
+  }
+}

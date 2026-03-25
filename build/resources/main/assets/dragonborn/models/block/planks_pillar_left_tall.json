@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "dragonborn:block/planks_white_pillar",
+		"particle": "dragonborn:block/planks_white_pillar"
+	},
+	"elements": [
+		{
+			"from": [10, 0, 0],
+			"to": [16, 16, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 0, 0]},
+			"faces": {
+				"north": {"uv": [10, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"south": {"uv": [4, 0, 10, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 2], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10, 16, 0],
+			"to": [16, 30, 2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 16, 0]},
+			"faces": {
+				"north": {"uv": [10, 2, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 2, 2, 16], "texture": "#0"},
+				"south": {"uv": [4, 2, 10, 16], "texture": "#0"},
+				"west": {"uv": [0, 2, 2, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 6, 2], "texture": "#0"},
+				"down": {"uv": [0, 0, 6, 2], "texture": "#0"}
+			}
+		}
+	]
+}

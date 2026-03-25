@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "from": [8, 0, 8],
+      "to":   [16, 8, 16],
+      "faces": {
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west":  { "texture": "#bottom" },
+        "east":  { "texture": "#top" },
+        "up":    { "texture": "#side" },
+        "down":  { "texture": "#side" }
+      }
+    }
+  ]
+}

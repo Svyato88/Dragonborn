@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/big_skull" },
+    "facing=south": { "model": "dragonborn:block/big_skull", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/big_skull", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/big_skull", "y": 90 }
+  }
+}

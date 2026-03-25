@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "dragonborn:block/grass/lavender_0"
+    },
+    "age=1": {
+      "model": "dragonborn:block/grass/lavender_1"
+    },
+    "age=2": {
+      "model": "dragonborn:block/grass/lavender_2"
+    },
+    "age=3": {
+      "model": "dragonborn:block/grass/lavender"
+    }
+  }
+}

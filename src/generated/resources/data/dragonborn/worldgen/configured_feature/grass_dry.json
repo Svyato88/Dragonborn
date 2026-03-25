@@ -1,0 +1,17 @@
+{
+  "type": "dragonborn:grass_patch",
+  "config": {
+    "count": 50,
+    "radius": 10,
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dragonborn:grass_dry"
+      }
+    },
+    "valid_blocks": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "dragonborn:podzol_blocks"
+    }
+  }
+}

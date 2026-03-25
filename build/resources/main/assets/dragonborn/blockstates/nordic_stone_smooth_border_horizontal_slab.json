@@ -1,0 +1,125 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/nordic_stone_smooth_horizontal_slab", "y": 180 }, "when": {
+      "facing": "north"
+    }},
+    { "apply": { "model": "dragonborn:block/nordic_stone_smooth_horizontal_slab", "y": 90 }, "when": {
+      "facing": "west"
+    }},
+    { "apply": { "model": "dragonborn:block/nordic_stone_smooth_horizontal_slab" }, "when": {
+      "facing": "south"
+    }},
+    { "apply": { "model": "dragonborn:block/nordic_stone_smooth_horizontal_slab", "y": 270 }, "when": {
+      "facing": "east"
+    }},
+
+
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 180
+      }, "when": {
+        "top": "true",
+        "down": "false",
+        "facing": "north"
+      }},
+    {"apply": {
+        "model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 180
+      }, "when": {
+        "top": "false",
+        "down": "true",
+      "facing": "north"
+      }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 180
+      }, "when": {
+        "top": "false",
+        "down": "false",
+      "facing": "north"
+      }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 180
+      }, "when": {
+        "top": "false",
+        "down": "false",
+      "facing": "north"
+      }
+    },
+
+
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 90
+    }, "when": {
+      "top": "true",
+      "down": "false",
+      "facing": "west"
+    }},
+    {"apply": {
+      "model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 90
+    }, "when": {
+      "top": "false",
+      "down": "true",
+      "facing": "west"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 90
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "west"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 90
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "west"
+    }},
+
+
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab"
+    }, "when": {
+      "top": "true",
+      "down": "false",
+      "facing": "south"
+    }},
+    {"apply": {
+      "model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab"
+    }, "when": {
+      "top": "false",
+      "down": "true",
+      "facing": "south"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab"
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "south"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab"
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "south"
+    }},
+
+
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 270
+    }, "when": {
+      "top": "true",
+      "down": "false",
+      "facing": "east"
+    }},
+    {"apply": {
+      "model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 270
+    }, "when": {
+      "top": "false",
+      "down": "true",
+      "facing": "east"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_top_vertical_slab", "y": 270
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "east"
+    }},
+    {"apply": {"model": "dragonborn:block/nordic_stone_smooth_border_down_vertical_slab", "y": 270
+    }, "when": {
+      "top": "false",
+      "down": "false",
+      "facing": "east"
+    }}
+  ]
+}

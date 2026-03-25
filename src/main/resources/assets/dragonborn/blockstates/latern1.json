@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/furniture/latern1" },
+    "facing=south": { "model": "dragonborn:block/furniture/latern1", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/furniture/latern1", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/furniture/latern1", "y": 90 }
+  }
+}

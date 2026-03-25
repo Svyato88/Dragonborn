@@ -1,0 +1,104 @@
+{
+  "multipart": [
+    {"apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal"
+      }, "when": {
+        "facing": "north"
+      }},
+    {"apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal"
+      }, "when": {
+        "facing": "south"
+      }},
+
+
+    {"apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal", "y": 90
+      }, "when": {
+        "facing": "east"
+      }},
+    {"apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal", "y": 90
+      }, "when": {
+        "facing": "west"
+    }},
+
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe"
+      },
+      "when": {
+        "facing": "north",
+        "latest": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "latest": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "latest": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "latest": "false"
+      }
+    },
+
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 180
+      },
+      "when": {
+        "facing": "north",
+        "first": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe"
+      },
+      "when": {
+        "facing": "south",
+        "first": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 270
+      },
+      "when": {
+        "facing": "east",
+        "first": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/wooden_beam_horizontal_robe", "y": 90
+      },
+      "when": {
+        "facing": "west",
+        "first": "false"
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "dragonborn:block/cobbled_limestone",
+    "side": "dragonborn:block/cobbled_limestone",
+    "top": "dragonborn:block/cobbled_limestone"
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/block/wooden_windows" } },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_all"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_t"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_t",
+        "y": 90
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_t",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_t",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_turn"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_turn",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_turn",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_turn",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line_twin"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows_line_twin",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/wooden_windows"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    }
+  ]
+}

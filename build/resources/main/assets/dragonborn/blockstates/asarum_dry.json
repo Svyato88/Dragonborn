@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/grass/asarum_dry"},
+      {"model": "dragonborn:block/grass/asarum_dry", "y": 90},
+      {"model": "dragonborn:block/grass/asarum_dry", "y": 180},
+      {"model": "dragonborn:block/grass/asarum_dry", "y": 270}
+    ]
+  }
+}

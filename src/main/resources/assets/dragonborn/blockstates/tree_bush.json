@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/grass/tree_bush"},
+      {"model": "dragonborn:block/grass/tree_bush", "y": 90},
+      {"model": "dragonborn:block/grass/tree_bush", "y": 180},
+      {"model": "dragonborn:block/grass/tree_bush", "y": 270}
+    ]
+  }
+}

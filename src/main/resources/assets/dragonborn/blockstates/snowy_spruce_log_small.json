@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_log_small",
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_log_small"
+    },
+    "axis=z": {
+      "model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_log_small"
+    }
+  }
+}

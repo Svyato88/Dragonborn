@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/furniture/torch_stand" },
+    "facing=south": { "model": "dragonborn:block/furniture/torch_stand", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/furniture/torch_stand", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/furniture/torch_stand", "y": 90 }
+  }
+}

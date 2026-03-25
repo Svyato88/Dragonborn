@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/grass/fallen_spruce_branch"},
+      {"model": "dragonborn:block/grass/fallen_spruce_branch", "y": 90},
+      {"model": "dragonborn:block/grass/fallen_spruce_branch", "y": 180},
+      {"model": "dragonborn:block/grass/fallen_spruce_branch", "y": 270}
+    ]
+  }
+}

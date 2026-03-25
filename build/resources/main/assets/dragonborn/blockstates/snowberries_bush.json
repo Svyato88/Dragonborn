@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0,snowy=false": {
+      "model": "dragonborn:block/grass/snowberries_bush_0"
+    },
+    "age=1,snowy=false": {
+      "model": "dragonborn:block/grass/snowberries_bush_1"
+    },
+    "age=2,snowy=false": {
+      "model": "dragonborn:block/grass/snowberries_bush_2"
+    },
+    "age=3,snowy=false": {
+      "model": "dragonborn:block/grass/snowberries_bush"
+    },
+    "age=0,snowy=true": {
+      "model": "dragonborn:block/grass/snowy_snowberries_bush_0"
+    },
+    "age=1,snowy=true": {
+      "model": "dragonborn:block/grass/snowy_snowberries_bush_1"
+    },
+    "age=2,snowy=true": {
+      "model": "dragonborn:block/grass/snowy_snowberries_bush_2"
+    },
+    "age=3,snowy=true": {
+      "model": "dragonborn:block/grass/snowy_snowberries_bush"
+    }
+  }
+}

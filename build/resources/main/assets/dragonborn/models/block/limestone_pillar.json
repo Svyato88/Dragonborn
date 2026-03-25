@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dragonborn:block/limestone_pillar_solid",
+    "side": "dragonborn:block/limestone_pillar"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "dragonborn:spruce_log",
+    "dragonborn:spruce_log_small",
+    "dragonborn:spruce_log_mini",
+
+    "dragonborn:snowy_spruce_log",
+    "dragonborn:snowy_spruce_log_small",
+    "dragonborn:snowy_spruce_log_mini"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,lush=false": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium"}
+    ],
+    "facing=south,lush=false": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium", "y": 180 }
+    ],
+    "facing=west,lush=false": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium", "y": 270 }
+    ],
+    "facing=east,lush=false": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium", "y": 90 }
+    ],
+    "facing=north,lush=true": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium_lush"}
+    ],
+    "facing=south,lush=true": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium_lush", "y": 180 }
+    ],
+    "facing=west,lush=true": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium_lush", "y": 270 }
+    ],
+    "facing=east,lush=true": [
+      {"model": "dragonborn:block/trees/spruce/spruce_branch_medium_lush", "y": 90 }
+    ]
+  }
+}

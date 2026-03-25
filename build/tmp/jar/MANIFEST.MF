@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dragonborn
+Specification-Vendor: Svyato88
+Specification-Version: 1
+Implementation-Title: Dragonborn
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor: Svyato88
+Implementation-Timestamp: 2026-03-24T10:20:19+0200
+

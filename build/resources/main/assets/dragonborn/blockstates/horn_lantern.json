@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,vertical=false": [{"model": "dragonborn:block/furniture/horn_lantern"}],
+    "facing=north,vertical=true": [{"model": "dragonborn:block/furniture/horn_lantern_vertical" }],
+
+    "facing=west,vertical=false": [{"model": "dragonborn:block/furniture/horn_lantern", "y": 270 }],
+    "facing=west,vertical=true": [{"model": "dragonborn:block/furniture/horn_lantern_vertical", "y": 270 }],
+
+    "facing=south,vertical=false": [{"model": "dragonborn:block/furniture/horn_lantern", "y": 180 }],
+    "facing=south,vertical=true": [{"model": "dragonborn:block/furniture/horn_lantern_vertical", "y": 180 }],
+
+    "facing=east,vertical=false": [{"model": "dragonborn:block/furniture/horn_lantern", "y": 90 }],
+    "facing=east,vertical=true": [{"model": "dragonborn:block/furniture/horn_lantern_vertical", "y": 90 }]
+  }
+}

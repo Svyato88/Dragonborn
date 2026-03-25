@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/grass/fern"},
+      {"model": "dragonborn:block/grass/fern", "y": 90},
+      {"model": "dragonborn:block/grass/fern", "y": 180},
+      {"model": "dragonborn:block/grass/fern", "y": 270}
+    ]
+  }
+}

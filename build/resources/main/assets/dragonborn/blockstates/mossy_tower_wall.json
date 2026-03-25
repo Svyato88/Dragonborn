@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/block/mossy_tower_wall1"},
+      {"model": "dragonborn:block/block/mossy_tower_wall2"}
+    ]
+  }
+}

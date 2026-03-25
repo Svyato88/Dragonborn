@@ -1,0 +1,12 @@
+{
+  "type": "dragonborn:feature_radius",
+  "config": {
+    "count": 5,
+    "feature": "dragonborn:tree_bush",
+    "radius": 1,
+    "valid_blocks": {
+      "predicate_type": "minecraft:tag_match",
+      "tag": "minecraft:dirt"
+    }
+  }
+}

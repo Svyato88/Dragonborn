@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,diagonal=false": { "model": "dragonborn:block/furniture/tower_pillar" },
+    "facing=north,diagonal=true": { "model": "dragonborn:block/furniture/tower_pillar_diagonal" },
+
+    "facing=south,diagonal=false": { "model": "dragonborn:block/furniture/tower_pillar", "y": 180 },
+    "facing=south,diagonal=true": { "model": "dragonborn:block/furniture/tower_pillar_diagonal", "y": 180 },
+
+    "facing=west,diagonal=false": { "model": "dragonborn:block/furniture/tower_pillar", "y": 270 },
+    "facing=west,diagonal=true": { "model": "dragonborn:block/furniture/tower_pillar_diagonal", "y": 270 },
+
+    "facing=east,diagonal=false": { "model": "dragonborn:block/furniture/tower_pillar", "y": 90 },
+    "facing=east,diagonal=true": { "model": "dragonborn:block/furniture/tower_pillar_diagonal", "y": 90 }
+  }
+}

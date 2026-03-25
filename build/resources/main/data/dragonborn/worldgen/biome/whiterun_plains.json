@@ -1,0 +1,80 @@
+{
+  "carvers": {},
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 9553635,
+    "foliage_color": 6394951,
+    "grass_color": 12756058,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 5016001,
+    "water_color": 4674708,
+    "water_fog_color": 4674708
+  },
+  "features": [
+    [
+      "dragonborn:stone_hills"
+    ],
+    [],
+    [],
+    [],
+    [
+      "dragonborn:stone_pile",
+      "dragonborn:stone_pile_mossy",
+      "dragonborn:spruce_patch_small",
+      "dragonborn:spruce_patch_medium",
+      "dragonborn:spruce_patch_big",
+      "dragonborn:spruce_stump_wp",
+      "dragonborn:dry_tree",
+      "dragonborn:big_bones",
+      "dragonborn:big_skull",
+      "dragonborn:ground_cliff"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dragonborn:little_rocks",
+      "dragonborn:orange_bush_tall",
+      "dragonborn:orange_bush",
+      "dragonborn:bush_yellow",
+      "dragonborn:bush_gray",
+      "dragonborn:bush_dry",
+      "dragonborn:tree_bush_patch_wp",
+      "dragonborn:lavender",
+      "dragonborn:cotton",
+      "dragonborn:mountain_flower_orange"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "dragonborn:butterfly",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.7
+}

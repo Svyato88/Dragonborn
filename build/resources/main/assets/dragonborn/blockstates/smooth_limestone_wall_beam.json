@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north,type=default": { "model": "dragonborn:block/smooth_limestone_wall_beam" },
+    "facing=north,type=inclined_half": { "model": "dragonborn:block/smooth_limestone_wall_beam_t" },
+    "facing=north,type=inclined": { "model": "dragonborn:block/smooth_limestone_wall_beam_f" },
+    "facing=north,type=inclined_half_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 180, "x": 180 },
+    "facing=north,type=inclined_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 180, "x": 180 },
+
+    "facing=south,type=default": { "model": "dragonborn:block/smooth_limestone_wall_beam", "y": 180  },
+    "facing=south,type=inclined_half": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 180  },
+    "facing=south,type=inclined": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 180  },
+    "facing=south,type=inclined_half_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "x": 180  },
+    "facing=south,type=inclined_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "x": 180  },
+
+    "facing=west,type=default": { "model": "dragonborn:block/smooth_limestone_wall_beam", "y": 270  },
+    "facing=west,type=inclined_half": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 270  },
+    "facing=west,type=inclined": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 270  },
+    "facing=west,type=inclined_half_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 90, "x": 180  },
+    "facing=west,type=inclined_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 90, "x": 180  },
+
+    "facing=east,type=default": { "model": "dragonborn:block/smooth_limestone_wall_beam", "y": 90  },
+    "facing=east,type=inclined_half": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 90  },
+    "facing=east,type=inclined": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 90  },
+    "facing=east,type=inclined_half_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_t", "y": 270, "x": 180  },
+    "facing=east,type=inclined_horizontal": { "model": "dragonborn:block/smooth_limestone_wall_beam_f", "y": 270, "x": 180  }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "dragonborn:block/grass/cotton_0"
+    },
+    "age=1": {
+      "model": "dragonborn:block/grass/cotton_1"
+    },
+    "age=2": {
+      "model": "dragonborn:block/grass/cotton_2"
+    },
+    "age=3": {
+      "model": "dragonborn:block/grass/cotton"
+    }
+  }
+}

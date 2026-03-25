@@ -1,0 +1,6 @@
+{
+  "type": "dragonborn:hill_features_place",
+  "config": {
+    "threshold": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "dragonborn:nbt_block_check",
+  "config": {
+    "offset": [
+      0,
+      0,
+      0
+    ],
+    "structure_list": [
+      "dragonborn:trees/stump_snowy_spruce"
+    ],
+    "valid_blocks": {
+      "block": "minecraft:snow_block",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

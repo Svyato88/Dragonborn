@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/trees/dry_tree/dry_tree_branch"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/trees/dry_tree/dry_tree_branch", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/trees/dry_tree/dry_tree_branch", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/trees/dry_tree/dry_tree_branch", "y": 90 }
+    ]
+  }
+}

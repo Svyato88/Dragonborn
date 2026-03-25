@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/block/cobblestone_wall1"},
+      {"model": "dragonborn:block/block/cobblestone_wall2"},
+      {"model": "dragonborn:block/block/cobblestone_wall3"}
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "dragonborn:block/stone_door_border",
+		"particle": "dragonborn:block/stone_door_border"
+	},
+	"elements": [
+		{
+			"from": [-1, 0, 14],
+			"to": [17, 16, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 14]},
+			"faces": {
+				"north": {"uv": [0, 0, 4.5, 4], "texture": "#0"},
+				"east": {"uv": [4.5, 1.5, 5.25, 5.5], "texture": "#0"},
+				"south": {"uv": [0, 4, 4.5, 8], "texture": "#0"},
+				"west": {"uv": [5.25, 1.5, 6, 5.5], "texture": "#0"},
+				"up": {"uv": [9, 0.75, 4.5, 0], "texture": "#0"},
+				"down": {"uv": [9, 0.75, 4.5, 1.5], "texture": "#0"}
+			}
+		}
+	]
+}

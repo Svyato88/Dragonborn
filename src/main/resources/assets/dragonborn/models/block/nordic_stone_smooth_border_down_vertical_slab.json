@@ -1,0 +1,22 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "dragonborn:block/air",
+    "bottom": "dragonborn:block/air",
+    "side": "dragonborn:block/nordic_stone_smooth_border_down"
+  },
+  "elements": [
+    {
+      "from": [-0.05, -0.05, -0.05],
+      "to":   [16.05, 16.05, 8.05],
+      "faces": {
+        "north": { "texture": "#side","tintindex": 0 },
+        "south": { "texture": "#side","tintindex": 0 },
+        "west":  { "texture": "#side","tintindex": 0 },
+        "east":  { "texture": "#side","tintindex": 0 },
+        "up":    { "texture": "#top","tintindex": 0 },
+        "down":  { "texture": "#bottom","tintindex": 0 }
+      }
+    }
+  ]
+}

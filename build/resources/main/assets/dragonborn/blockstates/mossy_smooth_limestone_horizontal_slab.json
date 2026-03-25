@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dragonborn:block/mossy_smooth_limestone_horizontal_slab",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "dragonborn:block/mossy_smooth_limestone_horizontal_slab",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "dragonborn:block/mossy_smooth_limestone_horizontal_slab"
+    },
+    "facing=west": {
+      "model": "dragonborn:block/mossy_smooth_limestone_horizontal_slab",
+      "y": 90
+    }
+  }
+}

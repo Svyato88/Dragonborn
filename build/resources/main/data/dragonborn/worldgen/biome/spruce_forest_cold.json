@@ -1,0 +1,126 @@
+{
+  "carvers": {},
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 9553635,
+    "foliage_color": 4290620,
+    "grass_color": 7386953,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 5016001,
+    "water_color": 4556154,
+    "water_fog_color": 4674708
+  },
+  "features": [
+    [
+      "dragonborn:stone_hills"
+    ],
+    [],
+    [],
+    [],
+    [
+      "dragonborn:stone_pile"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dragonborn:spruce_tree",
+      "dragonborn:spruce_stump_sf",
+      "dragonborn:grass_forest",
+      "dragonborn:grass_forest_flowers",
+      "dragonborn:grass_dry",
+      "dragonborn:asarum",
+      "dragonborn:asarum_dry",
+      "dragonborn:fallen_spruce_branch",
+      "dragonborn:fern_patch_big",
+      "dragonborn:fern_bush_big",
+      "dragonborn:fern_bush_dry_big",
+      "dragonborn:tree_bush_patch_ssf",
+      "dragonborn:prickly_plant",
+      "dragonborn:snowberries_bush",
+      "dragonborn:bush_dry"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.7
+}

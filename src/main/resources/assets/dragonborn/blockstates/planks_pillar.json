@@ -1,0 +1,73 @@
+{
+  "variants": {
+
+    "facing=north,hinge=false,higher=false,type=none": { "model": "dragonborn:block/planks_pillar" },
+    "facing=north,hinge=true,higher=false,type=none": { "model": "dragonborn:block/planks_pillar_left" },
+    "facing=north,hinge=false,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_tall" },
+    "facing=north,hinge=true,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_left_tall" },
+
+    "facing=north,hinge=false,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_down" },
+    "facing=north,hinge=true,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_left_down" },
+    "facing=north,hinge=false,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_down" },
+    "facing=north,hinge=true,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_left_down" },
+
+    "facing=north,hinge=false,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_top" },
+    "facing=north,hinge=true,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_left_top" },
+    "facing=north,hinge=false,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_tall_top" },
+    "facing=north,hinge=true,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_left_tall_top" },
+
+
+
+
+    "facing=south,hinge=false,higher=false,type=none": { "model": "dragonborn:block/planks_pillar", "y": 180 },
+    "facing=south,hinge=true,higher=false,type=none": { "model": "dragonborn:block/planks_pillar_left", "y": 180  },
+    "facing=south,hinge=false,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_tall", "y": 180 },
+    "facing=south,hinge=true,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_left_tall", "y": 180  },
+
+    "facing=south,hinge=false,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 180 },
+    "facing=south,hinge=true,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 180  },
+    "facing=south,hinge=false,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 180 },
+    "facing=south,hinge=true,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 180  },
+
+    "facing=south,hinge=false,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_top", "y": 180 },
+    "facing=south,hinge=true,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_left_top", "y": 180  },
+    "facing=south,hinge=false,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_tall_top", "y": 180 },
+    "facing=south,hinge=true,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_left_tall_top", "y": 180  },
+
+
+
+
+    "facing=west,hinge=false,higher=false,type=none": { "model": "dragonborn:block/planks_pillar", "y": 270 },
+    "facing=west,hinge=true,higher=false,type=none": { "model": "dragonborn:block/planks_pillar_left", "y": 270 },
+    "facing=west,hinge=false,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_tall", "y": 270 },
+    "facing=west,hinge=true,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_left_tall", "y": 270 },
+
+    "facing=west,hinge=false,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 270 },
+    "facing=west,hinge=true,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 270 },
+    "facing=west,hinge=false,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 270 },
+    "facing=west,hinge=true,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 270 },
+
+    "facing=west,hinge=false,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_top", "y": 270 },
+    "facing=west,hinge=true,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_left_top", "y": 270 },
+    "facing=west,hinge=false,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_tall_top", "y": 270 },
+    "facing=west,hinge=true,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_left_tall_top", "y": 270 },
+
+
+
+
+    "facing=east,hinge=false,higher=false,type=none": { "model": "dragonborn:block/planks_pillar", "y": 90 },
+    "facing=east,hinge=true,higher=false,type=none": { "model": "dragonborn:block/planks_pillar_left", "y": 90 },
+    "facing=east,hinge=false,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_tall", "y": 90 },
+    "facing=east,hinge=true,higher=true,type=none": { "model": "dragonborn:block/planks_pillar_left_tall", "y": 90 },
+
+    "facing=east,hinge=false,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 90 },
+    "facing=east,hinge=true,higher=false,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 90 },
+    "facing=east,hinge=false,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_down", "y": 90 },
+    "facing=east,hinge=true,higher=true,type=down": { "model": "dragonborn:block/planks_pillar_left_down", "y": 90 },
+
+    "facing=east,hinge=false,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_top", "y": 90 },
+    "facing=east,hinge=true,higher=false,type=top": { "model": "dragonborn:block/planks_pillar_left_top", "y": 90 },
+    "facing=east,hinge=false,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_tall_top", "y": 90 },
+    "facing=east,hinge=true,higher=true,type=top": { "model": "dragonborn:block/planks_pillar_left_tall_top", "y": 90 }
+  }
+}

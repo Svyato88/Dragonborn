@@ -1,0 +1,12 @@
+{
+  "type": "dragonborn:feature_radius",
+  "config": {
+    "count": 7,
+    "feature": "dragonborn:spruce_tree",
+    "radius": 17,
+    "valid_blocks": {
+      "block": "dragonborn:grass_block_full",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

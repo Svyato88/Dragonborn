@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/furniture/tower_window"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/furniture/tower_window", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/furniture/tower_window", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/furniture/tower_window", "y": 90 }
+    ]
+  }
+}

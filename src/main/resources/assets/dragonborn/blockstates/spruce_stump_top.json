@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/trees/spruce/spruce_stump_top"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/trees/spruce/spruce_stump_top", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/trees/spruce/spruce_stump_top", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/trees/spruce/spruce_stump_top", "y": 90 }
+    ]
+  }
+}

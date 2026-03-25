@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "on=false": {"model": "dragonborn:block/furniture/brazier"},
+    "on=true": {"model": "dragonborn:block/furniture/brazier_on"}
+  }
+}

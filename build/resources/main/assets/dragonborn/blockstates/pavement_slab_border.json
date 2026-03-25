@@ -1,0 +1,199 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/block/pavement_slab_border" } },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_all"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_t"
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_t",
+        "y": 90
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_t",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_t",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_turn"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_turn",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_turn",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_turn",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line",
+        "y": 180
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line",
+        "y": 270
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line_twin"
+      },
+      "when": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "west": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border_line_twin",
+        "y": 90
+      },
+      "when": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "west": "true"
+      }
+    },
+
+
+    {
+      "apply": {
+        "model": "dragonborn:block/block/pavement_slab_border"
+      },
+      "when": {
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "west": "true"
+      }
+    }
+  ]
+}

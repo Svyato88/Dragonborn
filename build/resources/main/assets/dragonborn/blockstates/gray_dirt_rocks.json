@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/block/gray_dirt_rocks" },
+    "facing=south": { "model": "dragonborn:block/block/gray_dirt_rocks", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/block/gray_dirt_rocks", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/block/gray_dirt_rocks", "y": 90 }
+  }
+}

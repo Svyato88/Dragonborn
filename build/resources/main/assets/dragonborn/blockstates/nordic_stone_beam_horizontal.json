@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dragonborn:block/nordic_stone_beam_horizontal_straight",
+      "uvlock": true,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dragonborn:block/nordic_stone_beam_horizontal_straight"
+    },
+    "facing=south": {
+      "model": "dragonborn:block/nordic_stone_beam_horizontal_straight",
+      "uvlock": true,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dragonborn:block/nordic_stone_beam_horizontal_straight",
+      "uvlock": true,
+      "y": 270
+    }
+  }
+}

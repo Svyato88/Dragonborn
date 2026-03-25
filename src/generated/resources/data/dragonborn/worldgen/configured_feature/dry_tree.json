@@ -1,0 +1,19 @@
+{
+  "type": "dragonborn:nbt_block_check",
+  "config": {
+    "offset": [
+      -1,
+      0,
+      -2
+    ],
+    "structure_list": [
+      "dragonborn:trees/dry_tree1",
+      "dragonborn:trees/dry_tree2",
+      "dragonborn:trees/dry_tree3"
+    ],
+    "valid_blocks": {
+      "block": "dragonborn:grass_block_full",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

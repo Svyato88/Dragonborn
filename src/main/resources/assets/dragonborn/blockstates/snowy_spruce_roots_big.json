@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_roots_big"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_roots_big", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_roots_big", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/trees/snowy_spruce/snowy_spruce_roots_big", "y": 90 }
+    ]
+  }
+}

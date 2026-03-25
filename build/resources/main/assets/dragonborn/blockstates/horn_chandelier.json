@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/furniture/horn_chandelier"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/furniture/horn_chandelier", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/furniture/horn_chandelier", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/furniture/horn_chandelier", "y": 90 }
+    ]
+  }
+}

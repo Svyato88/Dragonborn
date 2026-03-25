@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "facing=north,latest=false,shape=straight": { "model": "dragonborn:block/hay_roof_straight" },
+    "facing=north,latest=false,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_left" },
+    "facing=north,latest=false,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_right" },
+    "facing=north,latest=false,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_left" },
+    "facing=north,latest=false,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_right" },
+
+    "facing=east,latest=false,shape=straight": { "model": "dragonborn:block/hay_roof_straight", "y": 90 },
+    "facing=east,latest=false,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_left", "y": 90 },
+    "facing=east,latest=false,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_right", "y": 90 },
+    "facing=east,latest=false,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_left", "y": 90 },
+    "facing=east,latest=false,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_right", "y": 90 },
+
+    "facing=south,latest=false,shape=straight": { "model": "dragonborn:block/hay_roof_straight", "y": 180 },
+    "facing=south,latest=false,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_left", "y": 180 },
+    "facing=south,latest=false,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_right", "y": 180 },
+    "facing=south,latest=false,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_left", "y": 180 },
+    "facing=south,latest=false,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_right", "y": 180 },
+
+    "facing=west,latest=false,shape=straight": { "model": "dragonborn:block/hay_roof_straight", "y": 270 },
+    "facing=west,latest=false,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_left", "y": 270 },
+    "facing=west,latest=false,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_right", "y": 270 },
+    "facing=west,latest=false,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_left", "y": 270 },
+    "facing=west,latest=false,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_right", "y": 270 },
+
+
+
+
+    "facing=north,latest=true,shape=straight": { "model": "dragonborn:block/hay_roof_latest_straight" },
+    "facing=north,latest=true,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_latest_left" },
+    "facing=north,latest=true,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_latest_right" },
+    "facing=north,latest=true,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_latest_left" },
+    "facing=north,latest=true,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_latest_right" },
+
+    "facing=east,latest=true,shape=straight": { "model": "dragonborn:block/hay_roof_latest_straight", "y": 90 },
+    "facing=east,latest=true,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_latest_left", "y": 90 },
+    "facing=east,latest=true,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_latest_right", "y": 90 },
+    "facing=east,latest=true,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_latest_left", "y": 90 },
+    "facing=east,latest=true,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_latest_right", "y": 90 },
+
+    "facing=south,latest=true,shape=straight": { "model": "dragonborn:block/hay_roof_latest_straight", "y": 180 },
+    "facing=south,latest=true,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_latest_left", "y": 180 },
+    "facing=south,latest=true,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_latest_right", "y": 180 },
+    "facing=south,latest=true,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_latest_left", "y": 180 },
+    "facing=south,latest=true,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_latest_right", "y": 180 },
+
+    "facing=west,latest=true,shape=straight": { "model": "dragonborn:block/hay_roof_latest_straight", "y": 270 },
+    "facing=west,latest=true,shape=inner_left": { "model": "dragonborn:block/hay_roof_inner_latest_left", "y": 270 },
+    "facing=west,latest=true,shape=inner_right": { "model": "dragonborn:block/hay_roof_inner_latest_right", "y": 270 },
+    "facing=west,latest=true,shape=outer_left": { "model": "dragonborn:block/hay_roof_outer_latest_left", "y": 270 },
+    "facing=west,latest=true,shape=outer_right": { "model": "dragonborn:block/hay_roof_outer_latest_right", "y": 270 }
+  }
+}

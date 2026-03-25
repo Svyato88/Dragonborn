@@ -1,0 +1,59 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/block/grass_block_full_base" } },
+    { "apply": { "model": "dragonborn:block/block/grass_block_full_overlay" } },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers",
+        "y": 0
+      },
+      "when": {
+        "variant": 0
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers",
+        "y": 90
+      },
+      "when": {
+        "variant": 1
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers1",
+        "y": 180
+      },
+      "when": {
+        "variant": 6
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers1",
+        "y": 270
+      },
+      "when": {
+        "variant": 7
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers2"
+      },
+      "when": {
+        "variant": 8
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/block/grass_block_full_flowers2",
+        "y": 90
+      },
+      "when": {
+        "variant": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonborn:block/tower_pillar_stone_slab"
+    },
+    "type=double": {
+      "model": "dragonborn:block/tower_pillar_stone"
+    },
+    "type=top": {
+      "model": "dragonborn:block/tower_pillar_stone_slab_top"
+    }
+  }
+}

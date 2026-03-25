@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dragonborn:block/stone_wall",
+    "side": "dragonborn:block/stone_wall",
+    "top": "dragonborn:block/stone_wall"
+  }
+}

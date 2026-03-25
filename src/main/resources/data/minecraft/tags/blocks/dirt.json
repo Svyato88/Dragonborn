@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "dragonborn:grass_block",
+    "dragonborn:grass_block_full",
+    "dragonborn:grass_block_full_flowers",
+    "dragonborn:podzol_lush",
+    "dragonborn:podzol",
+    "dragonborn:dark_dirt",
+    "dragonborn:gray_dirt",
+    "dragonborn:gray_dirt_little_rocks",
+    "dragonborn:white_dirt"
+  ]
+}

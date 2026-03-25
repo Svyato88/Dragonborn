@@ -1,0 +1,8 @@
+{
+  "parent": "dragonborn:block/base/block_beam_outer_base",
+  "textures": {
+    "bottom": "dragonborn:block/smooth_limestone",
+    "side": "dragonborn:block/smooth_limestone",
+    "top": "dragonborn:block/smooth_limestone"
+  }
+}

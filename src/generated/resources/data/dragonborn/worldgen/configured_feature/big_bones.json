@@ -1,0 +1,14 @@
+{
+  "type": "dragonborn:nbt_structure",
+  "config": {
+    "offset": [
+      -1,
+      0,
+      -2
+    ],
+    "structure_list": [
+      "dragonborn:other/big_bones",
+      "dragonborn:other/big_bones1"
+    ]
+  }
+}

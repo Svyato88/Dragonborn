@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "axis=x,mossy=false": {
+      "model": "dragonborn:block/trees/spruce/spruce_log_small_horizontal",
+      "y": 90
+    },
+    "axis=y,mossy=false": {
+      "model": "dragonborn:block/trees/spruce/spruce_log_small"
+    },
+    "axis=z,mossy=false": {
+      "model": "dragonborn:block/trees/spruce/spruce_log_small_horizontal"
+    },
+    "axis=x,mossy=true": {
+      "model": "dragonborn:block/trees/spruce/mossy_spruce_log_small_horizontal",
+      "y": 90
+    },
+    "axis=y,mossy=true": {
+      "model": "dragonborn:block/trees/spruce/mossy_spruce_log_small"
+    },
+    "axis=z,mossy=true": {
+      "model": "dragonborn:block/trees/spruce/mossy_spruce_log_small_horizontal"
+    }
+  }
+}

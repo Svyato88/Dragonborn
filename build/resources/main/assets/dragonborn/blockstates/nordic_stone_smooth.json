@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/nordic_stone_smooth"},
+      {"model": "dragonborn:block/nordic_stone_smooth", "y": 90, "x": 90, "z": 90},
+      {"model": "dragonborn:block/nordic_stone_smooth", "y": 180, "x": 180, "z": 180},
+      {"model": "dragonborn:block/nordic_stone_smooth", "y": 270, "x": 270, "z": 270}
+    ]
+  }
+}

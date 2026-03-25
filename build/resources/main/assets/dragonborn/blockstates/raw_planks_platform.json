@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north,type=default": { "model": "dragonborn:block/raw_planks_platform_replace" },
+    "facing=north,type=braked": { "model": "dragonborn:block/raw_planks_platform_braked" },
+    "facing=north,type=end": { "model": "dragonborn:block/raw_planks_platform_end" },
+
+    "facing=south,type=default": { "model": "dragonborn:block/raw_planks_platform_replace", "y": 180 },
+    "facing=south,type=braked": { "model": "dragonborn:block/raw_planks_platform_braked", "y": 180 },
+    "facing=south,type=end": { "model": "dragonborn:block/raw_planks_platform_end", "y": 180 },
+
+    "facing=west,type=default": { "model": "dragonborn:block/raw_planks_platform_replace", "y": 270 },
+    "facing=west,type=braked": { "model": "dragonborn:block/raw_planks_platform_braked", "y": 270 },
+    "facing=west,type=end": { "model": "dragonborn:block/raw_planks_platform_end", "y": 270 },
+
+    "facing=east,type=default": { "model": "dragonborn:block/raw_planks_platform_replace", "y": 90 },
+    "facing=east,type=braked": { "model": "dragonborn:block/raw_planks_platform_braked", "y": 90 },
+    "facing=east,type=end": { "model": "dragonborn:block/raw_planks_platform_end", "y": 90 }
+  }
+}

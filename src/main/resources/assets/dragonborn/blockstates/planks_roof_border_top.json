@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/planks_roof_border_top" },
+    "facing=south": { "model": "dragonborn:block/planks_roof_border_top", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/planks_roof_border_top", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/planks_roof_border_top", "y": 90 }
+  }
+}

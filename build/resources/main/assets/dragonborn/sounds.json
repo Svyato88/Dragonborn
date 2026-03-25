@@ -1,0 +1,8 @@
+{
+  "skeleton_yell": {
+    "subtitles": "sounds.dragonborn.skeleton_yell",
+    "sounds": [
+      "dragonborn:skeleton_yell"
+    ]
+  }
+}

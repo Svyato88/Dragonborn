@@ -1,0 +1,8 @@
+{
+  "parent": "dragonborn:block/base/block_beam_base",
+  "textures": {
+    "bottom": "dragonborn:block/nordic_stone_bricks",
+    "side": "dragonborn:block/nordic_stone_bricks",
+    "top": "dragonborn:block/nordic_stone_bricks"
+  }
+}

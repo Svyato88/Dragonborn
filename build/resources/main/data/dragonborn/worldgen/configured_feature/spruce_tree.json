@@ -1,0 +1,17 @@
+{
+  "type": "dragonborn:nbt_structure",
+  "config": {
+    "offset": [
+      -2,
+      0,
+      -2
+    ],
+    "structure_list": [
+      "dragonborn:trees/spruce_tree1",
+      "dragonborn:trees/spruce_tree2",
+      "dragonborn:trees/spruce_tree3",
+      "dragonborn:trees/spruce_tree4",
+      "dragonborn:trees/spruce_tree5"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+package cws.dragonborn.worldgen.structure;
+
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.LevelHeightAccessor;
+import net.minecraft.world.level.levelgen.Heightmap;
+import org.jetbrains.annotations.NotNull;
+
+import javax.naming.Context;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.Condition;
+
+public class FlatSurfaceCondition implements Condition {
+
+    public static final Codec<FlatSurfaceCondition> CODEC =
+            RecordCodecBuilder.create(instance -> instance.group(
+                    Codec.INT.fieldOf("radius").forGetter(c -> c.radius),
+                    Codec.INT.fieldOf("max_height_diff").forGetter(c -> c.maxHeightDiff)
+            ).apply(instance, FlatSurfaceCondition::new));
+
+    private final int radius;
+    private final int maxHeightDiff;
+
+    public FlatSurfaceCondition(int radius, int maxHeightDiff) {
+        this.radius = radius;
+        this.maxHeightDiff = maxHeightDiff;
+    }
+
+    @Override
+    public boolean test(Context ctx) {
+
+        BlockPos center = ctx.pos();
+        LevelHeightAccessor level = ctx.level();
+
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+
+        for (int x = -radius; x <= radius; x += 4) {
+            for (int z = -radius; z <= radius; z += 4) {
+
+                int y = level.getHeight(
+                        Heightmap.Types.WORLD_SURFACE_WG,
+                        center.getX() + x,
+                        center.getZ() + z
+                );
+
+                min = Math.min(min, y);
+                max = Math.max(max, y);
+            }
+        }
+
+        return (max - min) <= maxHeightDiff;
+    }
+
+    @Override
+    public void await() throws InterruptedException {
+
+    }
+
+    @Override
+    public void awaitUninterruptibly() {
+
+    }
+
+    @Override
+    public long awaitNanos(long nanosTimeout) throws InterruptedException {
+        return 0;
+    }
+
+    @Override
+    public boolean await(long time, TimeUnit unit) throws InterruptedException {
+        return false;
+    }
+
+    @Override
+    public boolean awaitUntil(@NotNull Date deadline) throws InterruptedException {
+        return false;
+    }
+
+    @Override
+    public void signal() {
+
+    }
+
+    @Override
+    public void signalAll() {
+
+    }
+}

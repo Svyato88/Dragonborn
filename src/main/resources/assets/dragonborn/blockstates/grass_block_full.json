@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/block/grass_block_full_base" } },
+    { "apply": { "model": "dragonborn:block/block/grass_block_full_overlay" } }
+  ]
+}

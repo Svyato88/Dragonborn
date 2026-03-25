@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dragonborn:block/leather_sleeping_bag" },
+    "facing=south": { "model": "dragonborn:block/leather_sleeping_bag", "y": 180 },
+    "facing=west": { "model": "dragonborn:block/leather_sleeping_bag", "y": 270 },
+    "facing=east": { "model": "dragonborn:block/leather_sleeping_bag", "y": 90 }
+  }
+}

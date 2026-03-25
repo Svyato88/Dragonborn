@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "dragonborn:spruce_leaves",
+    "dragonborn:spruce_branch",
+    "dragonborn:spruce_branch_medium",
+
+    "dragonborn:snowy_spruce_leaves",
+    "dragonborn:snowy_spruce_branch",
+    "dragonborn:snowy_spruce_branch_medium"
+  ]
+}

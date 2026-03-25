@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dragonborn:block/stone_wall_brick",
+    "side": "dragonborn:block/stone_wall_brick_top"
+  }
+}

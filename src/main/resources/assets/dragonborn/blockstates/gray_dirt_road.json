@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": [
+      {"model": "dragonborn:block/block/gray_dirt_road1"},
+      {"model": "dragonborn:block/block/gray_dirt_road2"},
+      {"model": "dragonborn:block/block/gray_dirt_road3"}
+    ],
+    "facing=south": [
+      {"model": "dragonborn:block/block/gray_dirt_road1", "y": 180 },
+      {"model": "dragonborn:block/block/gray_dirt_road2", "y": 180 },
+      {"model": "dragonborn:block/block/gray_dirt_road3", "y": 180 }
+    ],
+    "facing=west": [
+      {"model": "dragonborn:block/block/gray_dirt_road1", "y": 270 },
+      {"model": "dragonborn:block/block/gray_dirt_road2", "y": 270 },
+      {"model": "dragonborn:block/block/gray_dirt_road3", "y": 270 }
+    ],
+    "facing=east": [
+      {"model": "dragonborn:block/block/gray_dirt_road1", "y": 90 },
+      {"model": "dragonborn:block/block/gray_dirt_road2", "y": 90 },
+      {"model": "dragonborn:block/block/gray_dirt_road3", "y": 90 }
+    ]
+  }
+}

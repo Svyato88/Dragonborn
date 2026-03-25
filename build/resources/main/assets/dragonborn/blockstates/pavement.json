@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/block/pavement1"},
+      {"model": "dragonborn:block/block/pavement2"},
+      {"model": "dragonborn:block/block/pavement3"}
+    ]
+  }
+}

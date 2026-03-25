@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/block/podzol_lush"},
+      {"model": "dragonborn:block/block/podzol_lush", "y": 90, "x": 90, "z": 90},
+      {"model": "dragonborn:block/block/podzol_lush", "y": 180, "x": 180, "z": 180},
+      {"model": "dragonborn:block/block/podzol_lush", "y": 270, "x": 270, "z": 270}
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "dragonborn:nordic_temple_big",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1642123119,
+
+    "spacing": 20,
+
+    "separation": 6,
+
+    "type": "minecraft:random_spread"
+  }
+}

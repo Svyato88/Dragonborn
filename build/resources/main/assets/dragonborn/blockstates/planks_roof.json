@@ -1,0 +1,15 @@
+{
+  "variants": {
+    "facing=north,latest=false": { "model": "dragonborn:block/planks_roof" },
+    "facing=north,latest=true": { "model": "dragonborn:block/planks_roof_latest" },
+
+    "facing=south,latest=false": { "model": "dragonborn:block/planks_roof", "y": 180 },
+    "facing=south,latest=true": { "model": "dragonborn:block/planks_roof_latest", "y": 180 },
+
+    "facing=west,latest=false": { "model": "dragonborn:block/planks_roof", "y": 270 },
+    "facing=west,latest=true": { "model": "dragonborn:block/planks_roof_latest", "y": 270 },
+
+    "facing=east,latest=false": { "model": "dragonborn:block/planks_roof", "y": 90 },
+    "facing=east,latest=true": { "model": "dragonborn:block/planks_roof_latest", "y": 90 }
+  }
+}

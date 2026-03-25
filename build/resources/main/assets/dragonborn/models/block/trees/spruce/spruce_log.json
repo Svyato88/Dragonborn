@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dragonborn:block/trees/spruce_log_top",
+    "side": "dragonborn:block/trees/spruce_log"
+  }
+}

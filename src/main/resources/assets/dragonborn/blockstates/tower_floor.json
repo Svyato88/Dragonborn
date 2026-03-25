@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/tower_floor"}
+    ]
+  }
+}

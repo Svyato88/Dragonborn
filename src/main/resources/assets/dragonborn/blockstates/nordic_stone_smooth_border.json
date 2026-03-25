@@ -1,0 +1,40 @@
+{
+  "multipart": [
+    { "apply": { "model": "dragonborn:block/nordic_stone_smooth" } },
+    {
+      "apply": {
+        "model": "dragonborn:block/nordic_stone_smooth_border_down"
+      },
+      "when": {
+        "top": "true",
+        "down": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/nordic_stone_smooth_border_top"
+      },
+      "when": {
+        "top": "false",
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "dragonborn:block/nordic_stone_smooth_border_top"
+      },
+      "when": {
+        "top": "false",
+        "down": "false"
+      }
+    },    {
+      "apply": {
+        "model": "dragonborn:block/nordic_stone_smooth_border_down"
+      },
+      "when": {
+        "top": "false",
+        "down": "false"
+      }
+    }
+  ]
+}

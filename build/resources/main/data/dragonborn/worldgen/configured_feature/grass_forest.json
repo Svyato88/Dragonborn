@@ -1,0 +1,17 @@
+{
+  "type": "dragonborn:grass_patch",
+  "config": {
+    "count": 150,
+    "radius": 10,
+    "state_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "dragonborn:grass_forest"
+      }
+    },
+    "valid_blocks": {
+      "block": "dragonborn:grass_block_full_flowers",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

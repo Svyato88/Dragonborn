@@ -1,0 +1,16 @@
+{
+  "type": "dragonborn:nbt_structure",
+  "config": {
+    "offset": [
+      -4,
+      -2,
+      -4
+    ],
+    "structure_list": [
+      "dragonborn:rocks/plains_rock_mossy1",
+      "dragonborn:rocks/plains_rock_mossy2",
+      "dragonborn:rocks/plains_rock_mossy3",
+      "dragonborn:rocks/plains_rock_mossy4"
+    ]
+  }
+}

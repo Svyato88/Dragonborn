@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "dragonborn:block/trees/mossy_spruce_log",
+		"1": "dragonborn:block/trees/spruce_log_big_top",
+		"particle": "dragonborn:block/trees/mossy_spruce_log"
+	},
+	"elements": [
+		{
+			"from": [-2, 2, 0],
+			"to": [14, 18, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [-2, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 2, 2, 10], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 8, 8], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [2, 2, 10, 10], "rotation": 180, "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [14, 2, 0],
+			"to": [18, 18, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [-2, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 0, 10], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2, 10, 0, 2], "texture": "#1"},
+				"west": {"uv": [0, 0, 8, 8], "rotation": 90, "texture": "#missing"},
+				"up": {"uv": [11, 0, 7, 16], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 0, 2, 8], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-2, -2, 0],
+			"to": [14, 2, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [-2, 8, 8]},
+			"faces": {
+				"north": {"uv": [10, 0, 2, 2], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [0, 0, 2, 8], "rotation": 270, "texture": "#missing"},
+				"south": {"uv": [10, 2, 2, 0], "texture": "#1"},
+				"west": {"uv": [7, 16, 3, 0], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 8], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [14, -2, 0],
+			"to": [18, 2, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [-2, 8, 8]},
+			"faces": {
+				"north": {"uv": [2, 0, 0, 2], "rotation": 180, "texture": "#1"},
+				"east": {"uv": [8, 16, 12, 0], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [2, 2, 0, 0], "texture": "#1"},
+				"west": {"uv": [0, 0, 2, 8], "rotation": 90, "texture": "#missing"},
+				"up": {"uv": [0, 0, 2, 8], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [1, 16, 5, 0], "texture": "#0"}
+			}
+		}
+	]
+}

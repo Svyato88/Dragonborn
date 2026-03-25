@@ -1,0 +1,45 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "dragonborn:block/trees/dry_tree/dry_log_base_small" }
+    },
+
+    {
+      "when": { "north": "true" },
+      "apply": { "model": "dragonborn:block/trees/dry_tree/dry_log_side_small" }
+    },
+    {
+      "when": { "south": "true" },
+      "apply": {
+        "model": "dragonborn:block/trees/dry_tree/dry_log_side_small",
+        "y": 180
+      }
+    },
+    {
+      "when": { "west": "true" },
+      "apply": {
+        "model": "dragonborn:block/trees/dry_tree/dry_log_side_small",
+        "y": 270
+      }
+    },
+    {
+      "when": { "east": "true" },
+      "apply": {
+        "model": "dragonborn:block/trees/dry_tree/dry_log_side_small",
+        "y": 90
+      }
+    },
+
+    {
+      "when": { "top": "true" },
+      "apply": { "model": "dragonborn:block/trees/dry_tree/dry_log_top_small" }
+    },
+    {
+      "when": { "bottom": "true" },
+      "apply": {
+        "model": "dragonborn:block/trees/dry_tree/dry_log_top_small",
+        "x": 180
+      }
+    }
+  ]
+}

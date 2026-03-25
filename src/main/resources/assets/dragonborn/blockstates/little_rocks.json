@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {"model": "dragonborn:block/little_rocks1"},
+      {"model": "dragonborn:block/little_rocks1", "y": 90},
+      {"model": "dragonborn:block/little_rocks1", "y": 180},
+      {"model": "dragonborn:block/little_rocks1", "y": 270},
+      {"model": "dragonborn:block/little_rocks2"},
+      {"model": "dragonborn:block/little_rocks2", "y": 90},
+      {"model": "dragonborn:block/little_rocks2", "y": 180},
+      {"model": "dragonborn:block/little_rocks2", "y": 270}
+    ]
+  }
+}

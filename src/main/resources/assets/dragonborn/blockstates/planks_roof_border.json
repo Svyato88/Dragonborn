@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north,latest=false,hinge=false": { "model": "dragonborn:block/planks_roof_border" },
+    "facing=north,latest=true,hinge=false": { "model": "dragonborn:block/planks_roof_border_latest" },
+    "facing=north,latest=false,hinge=true": { "model": "dragonborn:block/planks_roof_border_left" },
+    "facing=north,latest=true,hinge=true": { "model": "dragonborn:block/planks_roof_border_latest_left" },
+
+    "facing=south,latest=false,hinge=false": { "model": "dragonborn:block/planks_roof_border", "y": 180 },
+    "facing=south,latest=true,hinge=false": { "model": "dragonborn:block/planks_roof_border_latest", "y": 180 },
+    "facing=south,latest=false,hinge=true": { "model": "dragonborn:block/planks_roof_border_left", "y": 180 },
+    "facing=south,latest=true,hinge=true": { "model": "dragonborn:block/planks_roof_border_latest_left", "y": 180 },
+
+    "facing=west,latest=false,hinge=false": { "model": "dragonborn:block/planks_roof_border", "y": 270 },
+    "facing=west,latest=true,hinge=false": { "model": "dragonborn:block/planks_roof_border_latest", "y": 270 },
+    "facing=west,latest=false,hinge=true": { "model": "dragonborn:block/planks_roof_border_left", "y": 270 },
+    "facing=west,latest=true,hinge=true": { "model": "dragonborn:block/planks_roof_border_latest_left", "y": 270 },
+
+    "facing=east,latest=false,hinge=false": { "model": "dragonborn:block/planks_roof_border", "y": 90 },
+    "facing=east,latest=true,hinge=false": { "model": "dragonborn:block/planks_roof_border_latest", "y": 90 },
+    "facing=east,latest=false,hinge=true": { "model": "dragonborn:block/planks_roof_border_left", "y": 90 },
+    "facing=east,latest=true,hinge=true": { "model": "dragonborn:block/planks_roof_border_latest_left", "y": 90 }
+  }
+}

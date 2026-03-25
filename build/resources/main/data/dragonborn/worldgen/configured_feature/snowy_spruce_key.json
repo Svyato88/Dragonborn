@@ -1,0 +1,21 @@
+{
+  "type": "dragonborn:nbt_block_check",
+  "config": {
+    "offset": [
+      -2,
+      0,
+      -2
+    ],
+    "structure_list": [
+      "dragonborn:trees/spruce_tree_snowy1",
+      "dragonborn:trees/spruce_tree_snowy2",
+      "dragonborn:trees/spruce_tree_snowy3",
+      "dragonborn:trees/spruce_tree_snowy4",
+      "dragonborn:trees/spruce_tree_snowy5"
+    ],
+    "valid_blocks": {
+      "block": "minecraft:snow_block",
+      "predicate_type": "minecraft:block_match"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dragonborn:block/tower_flor",
+    "side": "dragonborn:block/tower_flor",
+    "top": "dragonborn:block/tower_flor"
+  }
+}

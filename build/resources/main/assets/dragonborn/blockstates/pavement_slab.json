@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonborn:block/pavement_slab"
+    },
+    "type=double": {
+      "model": "dragonborn:block/pavement"
+    },
+    "type=top": {
+      "model": "dragonborn:block/pavement_slab_top"
+    }
+  }
+}

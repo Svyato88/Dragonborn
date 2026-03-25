@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "dragonborn:block/trees/spruce_log_top_mini",
+		"1": "dragonborn:block/trees/spruce_log",
+		"particle": "dragonborn:block/trees/spruce_log_top_mini"
+	},
+	"elements": [
+		{
+			"from": [4, 4, 0],
+			"to": [12, 12, 16],
+			"rotation": {"angle": 0, "axis": "x", "origin": [0, 8, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [4, 0, 12, 16], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [4, 4, 12, 12], "texture": "#0"},
+				"west": {"uv": [4, 0, 12, 16], "rotation": 270, "texture": "#1"},
+				"up": {"uv": [4, 0, 12, 16], "texture": "#1"},
+				"down": {"uv": [4, 0, 12, 16], "rotation": 180, "texture": "#1"}
+			}
+		}
+	]
+}

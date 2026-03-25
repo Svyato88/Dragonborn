@@ -1,0 +1,22 @@
+{
+  "type": "dragonborn:nbt_structure",
+  "config": {
+    "offset": [
+      -4,
+      -2,
+      -4
+    ],
+    "structure_list": [
+      "dragonborn:rocks/plains_rock1",
+      "dragonborn:rocks/plains_rock2",
+      "dragonborn:rocks/plains_rock3",
+      "dragonborn:rocks/plains_rock4",
+      "dragonborn:rocks/plains_rock5",
+      "dragonborn:rocks/plains_rock6",
+      "dragonborn:rocks/plains_rock7",
+      "dragonborn:rocks/plains_rock8",
+      "dragonborn:rocks/plains_rock9",
+      "dragonborn:rocks/plains_rock10"
+    ]
+  }
+}
